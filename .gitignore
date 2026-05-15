@@ -1,0 +1,16 @@
+# === Entornos y Secretos ===
+**/.env*
+!**/.env.example
+
+# === Python ===
+**/__pycache__/
+**/*.pyc
+
+# === Directorios de la Skill ===
+# Se excluye el contenido temporal
+**/temp/*
+!**/temp/.gitkeep
+
+# El sandbox es local para custom commands
+**/sandbox/*
+!**/sandbox/.gitkeep
